@@ -10,6 +10,7 @@ function fuzzyMatch(drivers,param){
     return drivers.filter(e=>e.startsWith(param));
 }
 console.log(findMatching(drivers,"S"));
+
 function matchName(drivers,param){
 return drivers.filter(e=>e.name===param);
 }
