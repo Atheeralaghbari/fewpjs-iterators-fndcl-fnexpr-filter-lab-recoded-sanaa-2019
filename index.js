@@ -13,7 +13,4 @@ console.log(findMatching(drivers,"S"));
 function matchName(drivers,param){
 return drivers.filter(e=>e.name===param);
 }
-
-
-
 console.log(findMatching(drivers,"Sally"));
